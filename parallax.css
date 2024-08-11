@@ -16,16 +16,21 @@ html , body{
     min-height: 400px;
 }
 .pimg3{
-    background-image: url("images/img1.jpg");
+    background-image: url("img1.jpg");
     min-height: 400px;
 }
-.pimg1 ,.pimg2,.pimg3 {
+.pimg4{
+    background-image: url("thirdimg.jpg");
+    min-height: 400px;
+}
+.pimg1 ,.pimg2,.pimg3,.pimg4 {
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .ptext{
     position: absolute;
     top:50%;
@@ -71,4 +76,3 @@ html , body{
   .social-icons a:hover {
     color: #ddd;
   }
-  
